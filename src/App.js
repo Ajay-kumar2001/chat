@@ -16,7 +16,7 @@ async function requestPermission(){
   if(Permission === 'granted'){
       console.log('permission granted');
       
-      const fcmToken=await getToken(messaging,{vapidKey:"BCegm4tPdyj1IBkb0iCdTEGNzP1DlAt5wEt52rsddIADwhZV_D7OUNtxD61jFuNbVOwTYEQzWsJnT1lx7-2xLvM"});
+      const fcmToken=await getToken(messaging,{vapidKey:"BPWTiunEdQN5WliqLS3utIzrom4PhdkaMPIEAh5xKrRBRkVeDpVZihRqoUMSd1wq7vLvz5lMygp3r78cQOx5GOw"});
       console.log("fcm token ",fcmToken)
 
     }else if(Permission=="denied"){
